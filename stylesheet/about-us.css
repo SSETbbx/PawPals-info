@@ -27,16 +27,16 @@ p {
 }
 
 .navbar-toggler {
-  transform: translateX(-10px);
+  transform: translateX(-0.625rem);
 }
 
 #mission p {
   font-weight: 500;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 4rem;
 }
 
 #mission {
@@ -54,7 +54,7 @@ h1 {
 }
 
 #details h1 {
-  padding-bottom: 10px;
+  padding-bottom: 0.625rem;
 }
 
 .pfp-set {
@@ -68,8 +68,8 @@ h1 {
   display: flex;
   justify-content: center;
   border-radius: 10%;
-  width: 300px;
-  height: 350px;
+  width: 18.75rem;
+  height: 22rem;
 }
 
 .pfp, .modal-header {
@@ -82,17 +82,17 @@ h1 {
 }
 
 .pfp img {
-  max-height: 200px;
+  max-height: 12.5rem;
   border-radius: 50%;
-  margin-top: 30px;
+  margin-top: 2rem;
   align-self: center;
 }
 
 .pfp p {
   font-weight: 700;
-  font-size: 24px;
+  font-size: 1.5rem;
   text-align: center;
-  padding: 20px;
+  padding-top: 1.25rem;
 }
 
 #muck p, #nghia p {
@@ -104,27 +104,35 @@ h1 {
 }
 
 .modal-header img {
-  max-height: 200px;
+  max-height: 12.5rem;
   border-radius: 50%;
   align-self: center;
-  padding: 10px;
+  padding: 0.625rem;
 }
 
 .modal-header p {
   font-weight: 700;
-  font-size: 24px;
+  font-size: 1.5rem;
   text-align: center;
-  padding-top: 10px;
+  padding-top: 0.625rem;
+}
+
+.modal-body div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .modal-body img {
-  display: inline;
-  padding: 5px;
+  padding: 0.32rem;
   max-width: 1.8rem;
   float: left;
 }
 
 .modal-body p {
-  font-size: 16px !important;
+  font-size: 1rem !important;
   font-weight: 500;
+  margin-bottom: 0;
+  margin-left: 0.32rem;
+  padding: 0.5rem 0;
 }
